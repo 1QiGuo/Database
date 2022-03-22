@@ -19,12 +19,7 @@ These are curated files that hold a summarised combination of a GSE file and its
 
 ## Series Matrix File(s)
 It is usually the normalized data. 
-
-## SRA
-Sequence Read Archive: SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis.
-
-
-## Get seris matrix from GEO by R
+### Get seris matrix from GEO by R
 ```{r}
 gset <- getGEO('GSE152506',destdir = ".",
                AnnotGPL = T,
@@ -34,3 +29,9 @@ ad=gset[[1]]
 exprSet=exprs(ad)
 pData<-pData(ad)
 ```
+
+## SRA
+Sequence Read Archive: SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis.
+
+
+
