@@ -21,6 +21,8 @@ These are curated files that hold a summarised combination of a GSE file and its
 It is usually the normalized data. 
 ### Get seris matrix from GEO by R
 ```{r}
+library("GEOquery")
+library(Biobase)
 gset <- getGEO('GSE152506',destdir = ".",
                AnnotGPL = T,
                getGPL = T)
