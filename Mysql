@@ -1,0 +1,18 @@
+# Create database and drop database
+## Create database
+CREATE DATABASE SCIDB
+
+## Drop database
+Drop DATABASE SCIDB
+
+## Use database
+USE SCIdb
+
+# Table
+## Create table
+CREATE TABLE 
+
+## Show all column of database
+Select * from `name`
+
+
